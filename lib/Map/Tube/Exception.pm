@@ -1,15 +1,15 @@
 package Map::Tube::Exception;
 
-$Map::Tube::Exception::VERSION   = '0.01';
+$Map::Tube::Exception::VERSION   = '3.01';
 $Map::Tube::Exception::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
 
-Map::Tube::Exception - Base exception package as Moo Role for Map::Tube::* packages.
+Map::Tube::Exception - Base exception package as Moo Role for Map::Tube::* family.
 
 =head1 VERSION
 
-Version 0.01
+Version 3.01
 
 =cut
 
@@ -38,7 +38,7 @@ sub as_string {
 
 =head1 DESCRIPTION
 
-Base exception package as Moo Role for Map::Tube::* packages.
+Base exception package as Moo Role for Map::Tube::* family..
 
 =head1 STATUS CODES
 
@@ -59,6 +59,8 @@ Base exception package as Moo Role for Map::Tube::* packages.
     |     111     | Found self linked station.                                  |
     |     112     | Found multi linked station.                                 |
     |     113     | Found multi lined station.                                  |
+    |     114     | Found unsupported map.                                      |
+    |     115     | Missing supported map.                                      |
     +-------------+-------------------------------------------------------------+
 
 =head1 AUTHOR

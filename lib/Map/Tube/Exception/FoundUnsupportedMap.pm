@@ -1,11 +1,11 @@
-package Map::Tube::Exception::FoundMultiLinedStation;
+package Map::Tube::Exception::FoundUnsupportedMap;
 
-$Map::Tube::Exception::FoundMultiLinedStation::VERSION   = '3.01';
-$Map::Tube::Exception::FoundMultiLinedStation::AUTHORITY = 'cpan:MANWAR';
+$Map::Tube::Exception::FoundUnsupportedMap::VERSION   = '3.01';
+$Map::Tube::Exception::FoundUnsupportedMap::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
 
-Map::Tube::Exception::FoundMultiLinedStation - Represent 'multi lined station' exception.
+Map::Tube::Exception::FoundUnsupportedMap - Represent 'found unsupported map' exception.
 
 =head1 VERSION
 
@@ -19,7 +19,7 @@ use Data::Dumper;
 use Moo;
 use namespace::clean;
 
-has status => (is => 'ro', default => sub { 113 });
+has status => (is => 'ro', default => sub { 114 });
 
 with 'Map::Tube::Exception';
 
@@ -46,7 +46,7 @@ bug as I make changes.
 
 You can find documentation for this module with the perldoc command.
 
-    perldoc Map::Tube::Exception::FoundMultiLinedStation
+    perldoc Map::Tube::Exception::FoundUnsupportedMap
 
 You can also look for information at:
 
@@ -110,4 +110,4 @@ OF THE PACKAGE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 =cut
 
-1; # End of Map::Tube::Exception::FoundMultiLinedStation
+1; # End of Map::Tube::Exception::FoundUnsupportedMap

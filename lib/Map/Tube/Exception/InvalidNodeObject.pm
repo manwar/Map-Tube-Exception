@@ -1,6 +1,6 @@
 package Map::Tube::Exception::InvalidNodeObject;
 
-$Map::Tube::Exception::InvalidNodeObject::VERSION   = '0.01';
+$Map::Tube::Exception::InvalidNodeObject::VERSION   = '3.01';
 $Map::Tube::Exception::InvalidNodeObject::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Map::Tube::Exception::InvalidNodeObject - Represent 'invalid node object' except
 
 =head1 VERSION
 
-Version 0.01
+Version 3.01
 
 =cut
 

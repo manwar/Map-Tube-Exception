@@ -1,4 +1,9 @@
 Revision history for Map-Tube-Exception
 
+3.01  Tue Sep 15 12:35:00 2015
+      - Bumped version as it is clashing with previous Map::Tube::Exception v3.00,
+        part of Map::Tube distribution.
+      - Added two new exceptions MissingSupportedMap and FoundUnsupportedMap.
+
 0.01  Tue Sep 15 10:40:00 2015
       - First version, released.

@@ -15,6 +15,8 @@ lib/Map/Tube/Exception/FoundMultiLinedStation.pm
 lib/Map/Tube/Exception/InvalidNodeObject.pm
 lib/Map/Tube/Exception/MissingNodeObject.pm
 lib/Map/Tube/Exception/MissingPluginGraph.pm
+lib/Map/Tube/Exception/MissingSupportedMap.pm
+lib/Map/Tube/Exception/FoundUnsupportedMap.pm
 Makefile.PL
 LICENSE
 MANIFEST
