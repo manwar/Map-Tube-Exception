@@ -1,11 +1,11 @@
-package Map::Tube::Exception;
+package Map::Tube::Exception::FoundUnsupportedObject;
 
-$Map::Tube::Exception::VERSION   = '3.02';
-$Map::Tube::Exception::AUTHORITY = 'cpan:MANWAR';
+$Map::Tube::Exception::FoundUnsupportedObject::VERSION   = '3.02';
+$Map::Tube::Exception::FoundUnsupportedObject::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
 
-Map::Tube::Exception - Base exception package as Moo Role for Map::Tube::* family.
+Map::Tube::Exception::FoundUnsupportedObject - Represent 'found unsupported object' exception.
 
 =head1 VERSION
 
@@ -16,58 +16,16 @@ Version 3.02
 use 5.006;
 use Data::Dumper;
 
-use Moo::Role;
+use Moo;
 use namespace::clean;
-requires qw(status);
-with 'Throwable';
 
-use overload q{""} => 'as_string', fallback => 1;
+has status => (is => 'ro', default => sub { 116 });
 
-has method      => (is => 'ro');
-has message     => (is => 'ro');
-has filename    => (is => 'ro');
-has line_number => (is => 'ro');
-
-sub as_string {
-    my ($self) = @_;
-
-    return sprintf("%s(): %s (status: %s) file %s on line %d\n",
-                   $self->method, $self->message, $self->status,
-                   $self->filename, $self->line_number);
-}
+with 'Map::Tube::Exception';
 
 =head1 DESCRIPTION
 
-Base exception package as Moo Role for Map::Tube::* family.
-
-Extracted out of the  distribution  Map::Tube v3.0, so that it can be shared with
-Map::Tube and it's Map::Tube::* family. It has been re-structured in the process.
-
-=head1 STATUS CODES
-
-    +-------------+-------------------------------------------------------------+
-    | Status Code | Description                                                 |
-    +-------------+-------------------------------------------------------------+
-    |     100     | Missing station name.                                       |
-    |     101     | Invalid station name.                                       |
-    |     102     | Missing station id.                                         |
-    |     103     | Invalid station id.                                         |
-    |     104     | Missing line name.                                          |
-    |     105     | Invalid line name.                                          |
-    |     106     | Missing node object i.e. Map::Tube::Node.                   |
-    |     107     | Invalid node object.                                        |
-    |     108     | Missing plugin graph i.e Map::Tube::Plugin::Graph.          |
-    |     109     | Duplicate station name.                                     |
-    |     110     | Duplicate station id.                                       |
-    |     111     | Found self linked station.                                  |
-    |     112     | Found multi linked station.                                 |
-    |     113     | Found multi lined station.                                  |
-    |     114     | Found unsupported map.                                      |
-    |     115     | Missing supported map.                                      |
-    |     116     | Found unsupported object.                                   |
-    |     117     | Missing supported object, Map::Tube::Node / Map::Tube::Line |
-    |     118     | Invalid supported object.                                   |
-    +-------------+-------------------------------------------------------------+
+B<FOR INTERNAL USE ONLY>.
 
 =head1 AUTHOR
 
@@ -88,7 +46,7 @@ bug as I make changes.
 
 You can find documentation for this module with the perldoc command.
 
-    perldoc Map::Tube::Exception
+    perldoc Map::Tube::Exception::FoundUnsupportedObject
 
 You can also look for information at:
 
@@ -152,4 +110,4 @@ OF THE PACKAGE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 =cut
 
-1; # End of Map::Tube::Exception
+1; # End of Map::Tube::Exception::FoundUnsupportedObject

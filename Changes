@@ -1,5 +1,8 @@
 Revision history for Map-Tube-Exception
 
+3.02  Wed Sep 16 10:15:00 2015
+      - Added exceptions FoundUnsupportedObject, MissingSupportedObject and InvalidSupportedObject.
+
 3.01  Tue Sep 15 12:35:00 2015
       - Bumped version as it is clashing with previous Map::Tube::Exception v3.00,
         part of Map::Tube distribution.
