@@ -1,6 +1,6 @@
 package Map::Tube::Exception::FoundUnsupportedObject;
 
-$Map::Tube::Exception::FoundUnsupportedObject::VERSION   = '3.02';
+$Map::Tube::Exception::FoundUnsupportedObject::VERSION   = '3.03';
 $Map::Tube::Exception::FoundUnsupportedObject::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Map::Tube::Exception::FoundUnsupportedObject - Represent 'found unsupported obje
 
 =head1 VERSION
 
-Version 3.02
+Version 3.03
 
 =cut
 

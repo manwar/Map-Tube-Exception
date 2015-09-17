@@ -1,5 +1,8 @@
 Revision history for Map-Tube-Exception
 
+3.03  Thu Sep 17 10:50:00 2015
+      - Removed duplicate entry from the MANIFEST file.
+
 3.02  Wed Sep 16 10:15:00 2015
       - Added exceptions FoundUnsupportedObject, MissingSupportedObject and InvalidSupportedObject.
 
