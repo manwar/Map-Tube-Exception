@@ -1,5 +1,8 @@
 Revision history for Map-Tube-Exception
 
+3.04  Fri Oct 02 11:25:00 2015
+      - Added unit test for the all exceptions.
+
 3.03  Thu Sep 17 10:50:00 2015
       - Removed duplicate entry from the MANIFEST file.
 
