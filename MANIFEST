@@ -1,6 +1,8 @@
 Changes
 lib/Map/Tube/Exception.pm
 lib/Map/Tube/Exception/InvalidLineName.pm
+lib/Map/Tube/Exception/InvalidLineId.pm
+lib/Map/Tube/Exception/MissingLineId.pm
 lib/Map/Tube/Exception/InvalidStationId.pm
 lib/Map/Tube/Exception/InvalidStationName.pm
 lib/Map/Tube/Exception/MissingLineName.pm

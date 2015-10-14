@@ -1,6 +1,6 @@
 package Map::Tube::Exception::FoundUnsupportedMap;
 
-$Map::Tube::Exception::FoundUnsupportedMap::VERSION   = '3.04';
+$Map::Tube::Exception::FoundUnsupportedMap::VERSION   = '3.05';
 $Map::Tube::Exception::FoundUnsupportedMap::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Map::Tube::Exception::FoundUnsupportedMap - Represent 'found unsupported map' ex
 
 =head1 VERSION
 
-Version 3.04
+Version 3.05
 
 =cut
 

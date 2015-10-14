@@ -1,6 +1,6 @@
 package Map::Tube::Exception::FoundMultiLinedStation;
 
-$Map::Tube::Exception::FoundMultiLinedStation::VERSION   = '3.04';
+$Map::Tube::Exception::FoundMultiLinedStation::VERSION   = '3.05';
 $Map::Tube::Exception::FoundMultiLinedStation::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Map::Tube::Exception::FoundMultiLinedStation - Represent 'multi lined station' e
 
 =head1 VERSION
 
-Version 3.04
+Version 3.05
 
 =cut
 

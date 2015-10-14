@@ -1,11 +1,11 @@
-package Map::Tube::Exception::MissingSupportedMap;
+package Map::Tube::Exception::InvalidLineId;
 
-$Map::Tube::Exception::MissingSupportedMap::VERSION   = '3.05';
-$Map::Tube::Exception::MissingSupportedMap::AUTHORITY = 'cpan:MANWAR';
+$Map::Tube::Exception::InvalidLineId::VERSION   = '3.05';
+$Map::Tube::Exception::InvalidLineId::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
 
-Map::Tube::Exception::MissingSupportedMap - Represent 'missing supported map' exception.
+Map::Tube::Exception::InvalidLineId - Represent 'invalid line id' exception.
 
 =head1 VERSION
 
@@ -19,7 +19,7 @@ use Data::Dumper;
 use Moo;
 use namespace::clean;
 
-has status => (is => 'ro', default => sub { 115 });
+has status => (is => 'ro', default => sub { 119 });
 
 with 'Map::Tube::Exception';
 
@@ -46,7 +46,7 @@ bug as I make changes.
 
 You can find documentation for this module with the perldoc command.
 
-    perldoc Map::Tube::Exception::MissingSupportedMap
+    perldoc Map::Tube::Exception::InvalidLineId
 
 You can also look for information at:
 
@@ -110,4 +110,4 @@ OF THE PACKAGE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 =cut
 
-1; # End of Map::Tube::Exception::MissingSupportedMap
+1; # End of Map::Tube::Exception::InvalidLineId

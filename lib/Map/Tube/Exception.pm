@@ -1,6 +1,6 @@
 package Map::Tube::Exception;
 
-$Map::Tube::Exception::VERSION   = '3.04';
+$Map::Tube::Exception::VERSION   = '3.05';
 $Map::Tube::Exception::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Map::Tube::Exception - Base exception package as Moo Role for Map::Tube::* famil
 
 =head1 VERSION
 
-Version 3.04
+Version 3.05
 
 =cut
 
@@ -67,6 +67,8 @@ Map::Tube and it's Map::Tube::* family. It has been re-structured in the process
     |     116     | Found unsupported object.                                   |
     |     117     | Missing supported object, Map::Tube::Node / Map::Tube::Line |
     |     118     | Invalid supported object.                                   |
+    |     119     | Invalid line id.                                            |
+    |     120     | Missing line id.                                            |
     +-------------+-------------------------------------------------------------+
 
 =head1 AUTHOR

@@ -4,6 +4,8 @@ package T;
 
 use Map::Tube::Exception::MissingStationId;
 use Map::Tube::Exception::MissingStationName;
+use Map::Tube::Exception::MissingLineId;
+use Map::Tube::Exception::InvalidLineId;
 use Map::Tube::Exception::MissingLineName;
 use Map::Tube::Exception::InvalidStationId;
 use Map::Tube::Exception::InvalidStationName;
@@ -23,6 +25,28 @@ use Map::Tube::Exception::FoundUnsupportedObject;
 
 use Moo;
 use namespace::clean;
+
+sub test_missing_line_id {
+    my @caller  = caller(0);
+    @caller     = caller(2) if $caller[3] eq '(eval)';
+
+    Map::Tube::Exception::MissingLineId->throw({
+        method      => __PACKAGE__."::test_missing_line_id",
+        message     => "ERROR: Missing line id.",
+        filename    => $caller[1],
+        line_number => $caller[2] });
+}
+
+sub test_invalid_line_id {
+    my @caller  = caller(0);
+    @caller     = caller(2) if $caller[3] eq '(eval)';
+
+    Map::Tube::Exception::InvalidLineId->throw({
+        method      => __PACKAGE__."::test_invalid_line_id",
+        message     => "ERROR: Invalid line id.",
+        filename    => $caller[1],
+        line_number => $caller[2] });
+}
 
 sub test_missing_station_id {
     my @caller  = caller(0);
@@ -225,6 +249,12 @@ use 5.006;
 use strict;
 use warnings FATAL => 'all';
 use Test::More;
+
+eval { T->new->test_missing_line_id; };
+like($@, qr/Missing line id/);
+
+eval { T->new->test_invalid_line_id; };
+like($@, qr/Invalid line id/);
 
 eval { T->new->test_missing_station_id; };
 like($@, qr/Missing Station Id/);
