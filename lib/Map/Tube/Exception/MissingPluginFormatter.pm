@@ -1,11 +1,11 @@
-package Map::Tube::Exception::FoundUnsupportedObject;
+package Map::Tube::Exception::MissingPluginFormatter;
 
-$Map::Tube::Exception::FoundUnsupportedObject::VERSION   = '3.06';
-$Map::Tube::Exception::FoundUnsupportedObject::AUTHORITY = 'cpan:MANWAR';
+$Map::Tube::Exception::MissingPluginFormatter::VERSION   = '3.06';
+$Map::Tube::Exception::MissingPluginFormatter::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
 
-Map::Tube::Exception::FoundUnsupportedObject - Represent 'found unsupported object' exception.
+Map::Tube::Exception::MissingPluginFormatter - Represent 'missing plugin formatter' exception.
 
 =head1 VERSION
 
@@ -19,7 +19,7 @@ use Data::Dumper;
 use Moo;
 use namespace::clean;
 
-has status => (is => 'ro', default => sub { 116 });
+has status => (is => 'ro', default => sub { 122 });
 
 with 'Map::Tube::Exception';
 
@@ -46,7 +46,7 @@ bug as I make changes.
 
 You can find documentation for this module with the perldoc command.
 
-    perldoc Map::Tube::Exception::FoundUnsupportedObject
+    perldoc Map::Tube::Exception::MissingPluginFormatter
 
 You can also look for information at:
 
@@ -110,4 +110,4 @@ OF THE PACKAGE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 =cut
 
-1; # End of Map::Tube::Exception::FoundUnsupportedObject
+1; # End of Map::Tube::Exception::MissingPluginFormatter

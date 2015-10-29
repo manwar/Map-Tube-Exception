@@ -1,6 +1,6 @@
 package Map::Tube::Exception;
 
-$Map::Tube::Exception::VERSION   = '3.05';
+$Map::Tube::Exception::VERSION   = '3.06';
 $Map::Tube::Exception::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Map::Tube::Exception - Base exception package as Moo Role for Map::Tube::* famil
 
 =head1 VERSION
 
-Version 3.05
+Version 3.06
 
 =cut
 
@@ -69,6 +69,8 @@ Map::Tube and it's Map::Tube::* family. It has been re-structured in the process
     |     118     | Invalid supported object.                                   |
     |     119     | Invalid line id.                                            |
     |     120     | Missing line id.                                            |
+    |     121     | Missing plugin fuzzy find i.e. Map::Tube::Plugin::FuzzyFind |
+    |     122     | Missing plugin formatter i.e. Map::Tube::Plugin::Formatter  |
     +-------------+-------------------------------------------------------------+
 
 =head1 AUTHOR

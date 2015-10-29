@@ -1,5 +1,9 @@
 Revision history for Map-Tube-Exception
 
+3.06  Thu Oct 29 09:55:00 2015
+      - Added exceptions for Misssing Plugin FuzzyFind and Missing Plugin Formatter.
+      - Removed the minimum version check for Throwable from Makefile.PL script.
+
 3.05  Wed Oct 14 12:50:00 2015
       - Added exceptions for Invalid Line Id and Missing Line Id.
 

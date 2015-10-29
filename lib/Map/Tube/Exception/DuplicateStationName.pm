@@ -1,6 +1,6 @@
 package Map::Tube::Exception::DuplicateStationName;
 
-$Map::Tube::Exception::DuplicateStationName::VERSION   = '3.05';
+$Map::Tube::Exception::DuplicateStationName::VERSION   = '3.06';
 $Map::Tube::Exception::DuplicateStationName::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Map::Tube::Exception::DuplicateStationName - Represent 'duplicate station name' 
 
 =head1 VERSION
 
-Version 3.05
+Version 3.06
 
 =cut
 

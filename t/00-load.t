@@ -2,7 +2,7 @@
 use 5.006;
 use strict;
 use warnings FATAL => 'all';
-use Test::More tests => 19;
+use Test::More tests => 21;
 
 BEGIN {
     use_ok('Map::Tube::Exception')                          || print "Bail out!\n";
@@ -19,6 +19,8 @@ BEGIN {
     use_ok('Map::Tube::Exception::InvalidNodeObject')       || print "Bail out!\n";
     use_ok('Map::Tube::Exception::MissingNodeObject')       || print "Bail out!\n";
     use_ok('Map::Tube::Exception::MissingPluginGraph')      || print "Bail out!\n";
+    use_ok('Map::Tube::Exception::MissingPluginFuzzyFind')  || print "Bail out!\n";
+    use_ok('Map::Tube::Exception::MissingPluginFormatter')  || print "Bail out!\n";
     use_ok('Map::Tube::Exception::MissingSupportedMap')     || print "Bail out!\n";
     use_ok('Map::Tube::Exception::FoundUnsupportedMap')     || print "Bail out!\n";
     use_ok('Map::Tube::Exception::FoundUnsupportedObject')  || print "Bail out!\n";
