@@ -1,6 +1,6 @@
 package Map::Tube::Exception;
 
-$Map::Tube::Exception::VERSION   = '3.06';
+$Map::Tube::Exception::VERSION   = '3.07';
 $Map::Tube::Exception::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Map::Tube::Exception - Base exception package as Moo Role for Map::Tube::* famil
 
 =head1 VERSION
 
-Version 3.06
+Version 3.07
 
 =cut
 
@@ -40,7 +40,7 @@ sub as_string {
 
 Base exception package as Moo Role for Map::Tube::* family.
 
-Extracted out of the  distribution  Map::Tube v3.0, so that it can be shared with
+Extracted out of the distribution L<Map::Tube> v3.0,so that it can be shared with
 Map::Tube and it's Map::Tube::* family. It has been re-structured in the process.
 
 =head1 STATUS CODES
@@ -79,7 +79,7 @@ Mohammad S Anwar, C<< <mohammad.anwar at yahoo.com> >>
 
 =head1 REPOSITORY
 
-L<https://github.com/Manwar/Map-Tube-Exception>
+L<https://github.com/manwar/Map-Tube-Exception>
 
 =head1 BUGS
 
@@ -118,7 +118,7 @@ L<http://search.cpan.org/dist/Map-Tube-Exception/>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright (C) 2015 Mohammad S Anwar.
+Copyright (C) 2015 - 2016 Mohammad S Anwar.
 
 This  program  is  free software; you can redistribute it and/or  modify it under
 the  terms  of the the Artistic License (2.0).  You may obtain a copy of the full

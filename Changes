@@ -1,4 +1,7 @@
-Revision history for Map-Tube-Exception
+Revision history for Map::Tube::Exception
+
+3.07  Fri Oct 07 16:55:00 2016
+      - Updated copyright year information.
 
 3.06  Thu Oct 29 09:55:00 2015
       - Added exceptions for Misssing Plugin FuzzyFind and Missing Plugin Formatter.

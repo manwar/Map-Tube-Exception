@@ -1,6 +1,6 @@
 package Map::Tube::Exception::InvalidLineName;
 
-$Map::Tube::Exception::InvalidLineName::VERSION   = '3.06';
+$Map::Tube::Exception::InvalidLineName::VERSION   = '3.07';
 $Map::Tube::Exception::InvalidLineName::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Map::Tube::Exception::InvalidLineName - Represent 'invalid line name' exception.
 
 =head1 VERSION
 
-Version 3.06
+Version 3.07
 
 =cut
 
@@ -33,7 +33,7 @@ Mohammad S Anwar, C<< <mohammad.anwar at yahoo.com> >>
 
 =head1 REPOSITORY
 
-L<https://github.com/Manwar/Map-Tube-Exception>
+L<https://github.com/manwar/Map-Tube-Exception>
 
 =head1 BUGS
 
@@ -72,7 +72,7 @@ L<http://search.cpan.org/dist/Map-Tube-Exception/>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright (C) 2015 Mohammad S Anwar.
+Copyright (C) 2015 - 2016 Mohammad S Anwar.
 
 This  program  is  free software; you can redistribute it and/or  modify it under
 the  terms  of the the Artistic License (2.0).  You may obtain a copy of the full

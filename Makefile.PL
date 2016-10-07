@@ -11,7 +11,6 @@ WriteMakefile(
     VERSION_FROM       => 'lib/Map/Tube/Exception.pm',
     ABSTRACT_FROM      => 'lib/Map/Tube/Exception.pm',
     LICENSE            => 'artistic_2',
-    PL_FILES           => {},
     MIN_PERL_VERSION   => 5.006,
     CONFIGURE_REQUIRES => {
         'ExtUtils::MakeMaker' => 0,
@@ -31,8 +30,8 @@ WriteMakefile(
         resources => {
             repository => {
                 type => 'git',
-                url  => 'https://github.com/Manwar/Map-Tube-Exception.git',
-                web  => 'https://github.com/Manwar/Map-Tube-Exception',
+                url  => 'https://github.com/manwar/Map-Tube-Exception.git',
+                web  => 'https://github.com/manwar/Map-Tube-Exception',
             },
         }})
      : ()
