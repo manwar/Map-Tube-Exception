@@ -1,6 +1,6 @@
 package Map::Tube::Exception::MissingLineId;
 
-$Map::Tube::Exception::MissingLineId::VERSION   = '3.07';
+$Map::Tube::Exception::MissingLineId::VERSION   = '3.08';
 $Map::Tube::Exception::MissingLineId::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Map::Tube::Exception::MissingLineId - Represent 'missing line id' exception.
 
 =head1 VERSION
 
-Version 3.07
+Version 3.08
 
 =cut
 

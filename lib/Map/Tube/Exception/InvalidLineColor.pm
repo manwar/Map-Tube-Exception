@@ -1,11 +1,11 @@
-package Map::Tube::Exception::MissingPluginFuzzyFind;
+package Map::Tube::Exception::InvalidLineColor;
 
-$Map::Tube::Exception::MissingPluginFuzzyFind::VERSION   = '3.08';
-$Map::Tube::Exception::MissingPluginFuzzyFind::AUTHORITY = 'cpan:MANWAR';
+$Map::Tube::Exception::InvalidLineColor::VERSION   = '3.08';
+$Map::Tube::Exception::InvalidLineColor::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
 
-Map::Tube::Exception::MissingPluginFuzzyFind - Represent 'missing plugin fuzzy find' exception.
+Map::Tube::Exception::InvalidLineColor - Represent 'invalid line color' exception.
 
 =head1 VERSION
 
@@ -19,7 +19,7 @@ use Data::Dumper;
 use Moo;
 use namespace::clean;
 
-has status => (is => 'ro', default => sub { 121 });
+has status => (is => 'ro', default => sub { 123 });
 
 with 'Map::Tube::Exception';
 
@@ -46,7 +46,7 @@ bug as I make changes.
 
 You can find documentation for this module with the perldoc command.
 
-    perldoc Map::Tube::Exception::MissingPluginFuzzyFind
+    perldoc Map::Tube::Exception::InvalidLineColor
 
 You can also look for information at:
 
@@ -110,4 +110,4 @@ OF THE PACKAGE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 =cut
 
-1; # End of Map::Tube::Exception::MissingPluginFuzzyFind
+1; # End of Map::Tube::Exception::InvalidLineColor

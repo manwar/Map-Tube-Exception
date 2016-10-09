@@ -1,5 +1,9 @@
 Revision history for Map::Tube::Exception
 
+3.08  Sun Oct 09 08:30:00 2016
+      - Added exception for invalid color name.
+      - Added missing exceptions to the test script t/00-load.t.
+
 3.07  Fri Oct 07 16:55:00 2016
       - Updated copyright year information.
 
