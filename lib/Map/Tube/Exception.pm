@@ -1,6 +1,6 @@
 package Map::Tube::Exception;
 
-$Map::Tube::Exception::VERSION   = '3.08';
+$Map::Tube::Exception::VERSION   = '3.09';
 $Map::Tube::Exception::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Map::Tube::Exception - Base exception package as Moo Role for Map::Tube::* famil
 
 =head1 VERSION
 
-Version 3.08
+Version 3.09
 
 =cut
 
@@ -72,6 +72,7 @@ Map::Tube and it's Map::Tube::* family. It has been re-structured in the process
     |     121     | Missing plugin fuzzy find i.e. Map::Tube::Plugin::FuzzyFind |
     |     122     | Missing plugin formatter i.e. Map::Tube::Plugin::Formatter  |
     |     123     | Invalid line color.                                         |
+    |     124     | Missing Map Data.                                           |
     +-------------+-------------------------------------------------------------+
 
 =head1 AUTHOR

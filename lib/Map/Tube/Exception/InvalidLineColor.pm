@@ -1,6 +1,6 @@
 package Map::Tube::Exception::InvalidLineColor;
 
-$Map::Tube::Exception::InvalidLineColor::VERSION   = '3.08';
+$Map::Tube::Exception::InvalidLineColor::VERSION   = '3.09';
 $Map::Tube::Exception::InvalidLineColor::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Map::Tube::Exception::InvalidLineColor - Represent 'invalid line color' exceptio
 
 =head1 VERSION
 
-Version 3.08
+Version 3.09
 
 =cut
 

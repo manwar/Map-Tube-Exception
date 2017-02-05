@@ -24,6 +24,7 @@ lib/Map/Tube/Exception/FoundUnsupportedMap.pm
 lib/Map/Tube/Exception/FoundUnsupportedObject.pm
 lib/Map/Tube/Exception/MissingSupportedObject.pm
 lib/Map/Tube/Exception/InvalidSupportedObject.pm
+lib/Map/Tube/Exception/MissingMapData.pm
 Makefile.PL
 LICENSE
 MANIFEST

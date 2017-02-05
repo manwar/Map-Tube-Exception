@@ -1,6 +1,6 @@
 package Map::Tube::Exception::FoundMultiLinkedStation;
 
-$Map::Tube::Exception::FoundMultiLinkedStation::VERSION   = '3.08';
+$Map::Tube::Exception::FoundMultiLinkedStation::VERSION   = '3.09';
 $Map::Tube::Exception::FoundMultiLinkedStation::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Map::Tube::Exception::FoundMultiLinkedStation - Represent 'multi linked station'
 
 =head1 VERSION
 
-Version 3.08
+Version 3.09
 
 =cut
 
