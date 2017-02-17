@@ -1,15 +1,8 @@
 package Map::Tube::Exception::MissingStationId;
 
-$Map::Tube::Exception::MissingStationId::VERSION   = '3.09';
-$Map::Tube::Exception::MissingStationId::AUTHORITY = 'cpan:MANWAR';
-
 =head1 NAME
 
 Map::Tube::Exception::MissingStationId - Represent 'missing station id' exception.
-
-=head1 VERSION
-
-Version 3.09
 
 =cut
 

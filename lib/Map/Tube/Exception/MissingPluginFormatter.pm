@@ -1,15 +1,8 @@
 package Map::Tube::Exception::MissingPluginFormatter;
 
-$Map::Tube::Exception::MissingPluginFormatter::VERSION   = '3.09';
-$Map::Tube::Exception::MissingPluginFormatter::AUTHORITY = 'cpan:MANWAR';
-
 =head1 NAME
 
 Map::Tube::Exception::MissingPluginFormatter - Represent 'missing plugin formatter' exception.
-
-=head1 VERSION
-
-Version 3.09
 
 =cut
 

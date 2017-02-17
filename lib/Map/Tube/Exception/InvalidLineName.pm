@@ -1,15 +1,8 @@
 package Map::Tube::Exception::InvalidLineName;
 
-$Map::Tube::Exception::InvalidLineName::VERSION   = '3.09';
-$Map::Tube::Exception::InvalidLineName::AUTHORITY = 'cpan:MANWAR';
-
 =head1 NAME
 
 Map::Tube::Exception::InvalidLineName - Represent 'invalid line name' exception.
-
-=head1 VERSION
-
-Version 3.09
 
 =cut
 

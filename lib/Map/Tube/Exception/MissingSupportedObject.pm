@@ -1,15 +1,8 @@
 package Map::Tube::Exception::MissingSupportedObject;
 
-$Map::Tube::Exception::MissingSupportedObject::VERSION   = '3.09';
-$Map::Tube::Exception::MissingSupportedObject::AUTHORITY = 'cpan:MANWAR';
-
 =head1 NAME
 
 Map::Tube::Exception::MissingSupportedObject - Represent 'missing supported object' exception.
-
-=head1 VERSION
-
-Version 3.09
 
 =cut
 

@@ -1,15 +1,8 @@
 package Map::Tube::Exception::MissingPluginGraph;
 
-$Map::Tube::Exception::MissingPluginGraph::VERSION   = '3.09';
-$Map::Tube::Exception::MissingPluginGraph::AUTHORITY = 'cpan:MANWAR';
-
 =head1 NAME
 
 Map::Tube::Exception::MissingPluginGraph - Represent 'missing plugin graph' exception.
-
-=head1 VERSION
-
-Version 3.09
 
 =cut
 
