@@ -66,6 +66,7 @@ Map::Tube and it's Map::Tube::* family. It has been re-structured in the process
     |     122     | Missing plugin formatter i.e. Map::Tube::Plugin::Formatter  |
     |     123     | Invalid line color.                                         |
     |     124     | Missing Map Data.                                           |
+    |     125     | Found unsupported map data format.                          |
     +-------------+-------------------------------------------------------------+
 
 =head1 AUTHOR
