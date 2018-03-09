@@ -68,6 +68,7 @@ Map::Tube and it's Map::Tube::* family. It has been re-structured in the process
     |     124     | Missing Map Data.                                           |
     |     125     | Found unsupported map data format.                          |
     |     126     | Malformed Map Data.                                         |
+    |     127     | Invalid color hex code.                                     |
     +-------------+-------------------------------------------------------------+
 
 =head1 AUTHOR
