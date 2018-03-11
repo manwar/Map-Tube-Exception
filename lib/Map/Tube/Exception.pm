@@ -10,7 +10,7 @@ use 5.006;
 use Data::Dumper;
 
 use Moo::Role;
-use namespace::clean;
+use namespace::autoclean;
 requires qw(status);
 with 'Throwable';
 
