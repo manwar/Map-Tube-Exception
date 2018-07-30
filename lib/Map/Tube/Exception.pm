@@ -71,6 +71,7 @@ Map::Tube and it's Map::Tube::* family. It has been re-structured in the process
     |     127     | Invalid color hex code.                                     |
     |     128     | Invalid line structure.                                     |
     |     129     | Invalid station structure.                                  |
+    |     130     | Invalid background color.                                   |
     +-------------+-------------------------------------------------------------+
 
 =head1 AUTHOR
