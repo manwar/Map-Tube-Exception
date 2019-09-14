@@ -1,5 +1,8 @@
 Revision history for Map::Tube::Exception
 
+3.20  Sat Sep 14 23:10:00 2019
+      - Moved author test scripts to xt/ subfolder.
+
 3.19  Fri Jan 25 11:30:00 2019
       - Added dependency on Dist::Zilla::PluginBundle::MANWAR v0.08.
 
