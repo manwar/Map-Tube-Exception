@@ -49,10 +49,6 @@ You can also look for information at:
 
 L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Map-Tube-Exception>
 
-=item * AnnoCPAN: Annotated CPAN documentation
-
-L<http://annocpan.org/dist/Map-Tube-Exception>
-
 =item * CPAN Ratings
 
 L<http://cpanratings.perl.org/d/Map-Tube-Exception>
