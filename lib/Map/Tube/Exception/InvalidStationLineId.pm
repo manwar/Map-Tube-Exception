@@ -1,8 +1,8 @@
-package Map::Tube::Exception::FoundUnsupportedMap;
+package Map::Tube::Exception::InvalidStationLineId;
 
 =head1 NAME
 
-Map::Tube::Exception::FoundUnsupportedMap - Represent 'found unsupported map' exception.
+Map::Tube::Exception::InvalidStationLineId - Represent 'invalid station line id' exception.
 
 =cut
 
@@ -12,7 +12,7 @@ use Data::Dumper;
 use Moo;
 use namespace::autoclean;
 
-has status => (is => 'ro', default => sub { 114 });
+has status => (is => 'ro', default => sub { 132 });
 
 with 'Map::Tube::Exception';
 
@@ -30,7 +30,8 @@ L<https://github.com/manwar/Map-Tube-Exception>
 
 =head1 BUGS
 
-Please report any bugs or feature requests through the web interface at L<https://github.com/manwar/Map-Tube-Exception/issues>.
+Please  report  any  bugs  or  feature requests to C<bug-map-tube-exception at rt.cpan.org>,
+or through the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Map-Tube-Exception>.
 I will be notified, and then you'll automatically be notified of progress on your
 bug as I make changes.
 
@@ -38,15 +39,19 @@ bug as I make changes.
 
 You can find documentation for this module with the perldoc command.
 
-    perldoc Map::Tube::Exception
+    perldoc Map::Tube::Exception::InvalidStationName
 
 You can also look for information at:
 
 =over 4
 
-=item * BUG Report
+=item * RT: CPAN's request tracker (report bugs here)
 
-L<https://github.com/manwar/Map-Tube-Exception/issues>
+L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Map-Tube-Exception>
+
+=item * AnnoCPAN: Annotated CPAN documentation
+
+L<http://annocpan.org/dist/Map-Tube-Exception>
 
 =item * CPAN Ratings
 
@@ -98,4 +103,4 @@ OF THE PACKAGE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 =cut
 
-1; # End of Map::Tube::Exception::FoundUnsupportedMap
+1; # End of Map::Tube::Exception::InvalidStationLineId
