@@ -74,6 +74,7 @@ Map::Tube and it's Map::Tube::* family. It has been re-structured in the process
     |     130     | Invalid background color.                                   |
     |     131     | Invalid color name.                                         |
     |     132     | Invalid station line id.                                    |
+    |     133     | Route not found.                                            |
     +-------------+-------------------------------------------------------------+
 
 =head1 AUTHOR
